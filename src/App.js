@@ -1,10 +1,14 @@
-import './App.css';
+import "./App.css";
+import { ThemeProvider } from "@mui/material/styles";
+import { CustomTheme } from "./themes";
+import Routers from "./routers";
 
 function App() {
+  const customTheme = CustomTheme();
   return (
-    <div className="App">
-      
-    </div>
+    <ThemeProvider theme={customTheme}>
+      <Routers />
+    </ThemeProvider>
   );
 }
 
