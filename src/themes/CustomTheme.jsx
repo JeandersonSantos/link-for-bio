@@ -17,11 +17,11 @@ export const CustomTheme = () => {
       MuiButton: {
         styleOverrides: {
           root: {
-            color: "#f0cdd3",
-            borderColor: "#f0cdd3",
+            color: "#ffffff",
+            borderColor: "#ffffff",
             borderRadius: "20px",
             "&:hover": {
-              borderColor: "#d09b9d",
+              borderColor: "#cfcfcf",
             },
           },
         },
@@ -29,11 +29,11 @@ export const CustomTheme = () => {
       MuiIconButton: {
         styleOverrides: {
           root: {
-            color: "#f0cdd3",
-            borderColor: "#f0cdd3",
+            color: "#ffffff",
+            borderColor: "#ffffff",
             borderRadius: "20px",
             "&:hover": {
-              borderColor: "#d09b9d",
+              borderColor: "#cfcfcf",
             },
           },
         },
